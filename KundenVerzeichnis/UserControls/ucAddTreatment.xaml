@@ -1,0 +1,34 @@
+﻿<UserControl x:Class="KundenVerzeichnis.ucAddTreatment"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:KundenVerzeichnis"
+             mc:Ignorable="d" 
+             Height="517" d:DesignWidth="681" >
+    <Grid>
+        <Grid>
+            <Label x:Name="lblPatient" Content="Patient" HorizontalAlignment="Left" Margin="49,82,0,0" VerticalAlignment="Top"/>
+            <ComboBox x:Name="cbxPatient" HorizontalAlignment="Left" Margin="160,86,0,0" VerticalAlignment="Top" Width="120" IsTextSearchEnabled="True" IsEditable="True" TabIndex="0"/>
+            <Label x:Name="lblDate" Content="Datum" HorizontalAlignment="Left" Margin="49,163,0,0" VerticalAlignment="Top"/>
+            <Label x:Name="lblPrice" Content="Kosten" HorizontalAlignment="Left" Margin="49,218,0,0" VerticalAlignment="Top"/>
+            <TextBox x:Name="txtPrice" HorizontalAlignment="Left" Height="22" Margin="160,218,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TabIndex="3"/>
+            <Button x:Name="btnAdd" Content="Erfassen" HorizontalAlignment="Left" Margin="508,455,0,0" VerticalAlignment="Top" Width="123" Click="btnAdd_Click" TabIndex="6"/>
+            <Label x:Name="lblTitle" Content="Behandlung erfassen" HorizontalAlignment="Left" Margin="160,14,0,0" VerticalAlignment="Top" FontSize="30" FontWeight="Bold"/>
+            <Label x:Name="lblNotes" Content="Anmerkungen" HorizontalAlignment="Left" Margin="49,323,0,0" VerticalAlignment="Top"/>
+            <RichTextBox x:Name="tbNotes" HorizontalAlignment="Left" Height="148" Margin="160,327,0,0" VerticalAlignment="Top" Width="181" TabIndex="5">
+                <FlowDocument>
+                    <Paragraph>
+                        <Run />
+                    </Paragraph>
+                </FlowDocument>
+            </RichTextBox>
+            <TextBox x:Name="txtSearch" HorizontalAlignment="Left" Height="22" Margin="508,68,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Text="Suchen" GotFocus="TextBox_Focus" TabIndex="7"/>
+            <DatePicker x:Name="dpDate" HorizontalAlignment="Left" Margin="160,165,0,0" VerticalAlignment="Top" TabIndex="2"/>
+            <Label x:Name="lblTreatmentTitle" Content="Behandlungsart" HorizontalAlignment="Left" Margin="49,125,0,0" VerticalAlignment="Top"/>
+            <TextBox x:Name="txtTreatmentTitle" HorizontalAlignment="Left" Height="22" Margin="160,125,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TabIndex="1"/>
+            <Label x:Name="lblBill" Content="Auf Rechnung" HorizontalAlignment="Left" Margin="50,263,0,0" VerticalAlignment="Top"/>
+            <CheckBox x:Name="cbBill" HorizontalAlignment="Left" Margin="160,270,0,0" VerticalAlignment="Top" TabIndex="4"/>
+        </Grid>
+    </Grid>
+</UserControl>

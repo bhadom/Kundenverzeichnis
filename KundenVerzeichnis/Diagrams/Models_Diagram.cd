@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="KundenVerzeichnis.Models.Bill">
+    <Position X="8.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAACAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Models\Bill.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KundenVerzeichnis.Models.City">
+    <Position X="7" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Models\City.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KundenVerzeichnis.Models.Patient">
+    <Position X="3.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAEAAABAAAACEAAAAAAAAAAAAAAAAAAIAAACAAAg=</HashCode>
+      <FileName>Models\Patient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KundenVerzeichnis.Models.Treatment">
+    <Position X="5.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAEAAQAAAEEAAAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Models\Treatment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

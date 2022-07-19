@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="KundenVerzeichnis.MainWindow">
+    <Position X="0.5" Y="0.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAIBABAAEACAAAAAgBIAgFAAAQAAEAA=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="KundenVerzeichnis.ucAddPatient">
+    <Position X="3.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>UserControls\ucAddPatient.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="KundenVerzeichnis.ucAddTreatment">
+    <Position X="5" Y="0.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAI=</HashCode>
+      <FileName>UserControls\ucAddTreatment.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="KundenVerzeichnis.ucChangeBill">
+    <Position X="10" Y="0.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAgAAACAAAAAAAAAIAQAAACAAAAAAAA=</HashCode>
+      <FileName>UserControls\ucChangeBill.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="KundenVerzeichnis.ucChangeTreatment">
+    <Position X="7.5" Y="0.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAgAAACAAAAAAAAAIAQAAACAgAAAAAA=</HashCode>
+      <FileName>UserControls\ucChangeTreatment.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="KundenVerzeichnis.ucGenerateBill">
+    <Position X="9.75" Y="4" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAgAACCAAAAAAAAAIAAAAACCAAAAAAI=</HashCode>
+      <FileName>UserControls\ucGenerateBill.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="KundenVerzeichnis.ucGenerateMonth">
+    <Position X="12.5" Y="0.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAwAAAAAAAIAAAAAAAAAQAAAECiAAAAAAAYAA=</HashCode>
+      <FileName>UserControls\ucGenerateMonth.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="KundenVerzeichnis.ucGenerateYear">
+    <Position X="7.25" Y="4" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAwAAAAAAAIAAAAAAAAAAAAAECAAAAAAAAIAA=</HashCode>
+      <FileName>UserControls\ucGenerateYear.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="KundenVerzeichnis.Input">
+    <Position X="1" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Input.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

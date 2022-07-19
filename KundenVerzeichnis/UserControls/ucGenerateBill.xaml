@@ -1,0 +1,37 @@
+﻿<UserControl x:Class="KundenVerzeichnis.ucGenerateBill"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:KundenVerzeichnis"
+             mc:Ignorable="d" 
+             Height="517" d:DesignWidth="681" >
+    <Grid>
+        <Grid>
+            <Label x:Name="lblPatient" Content="Patient" HorizontalAlignment="Left" Margin="49,82,0,0" VerticalAlignment="Top"/>
+            <ComboBox x:Name="cbxPatient" HorizontalAlignment="Left" Margin="160,86,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="cbxPatient_SelectionChanged" IsTextSearchEnabled="True" IsEditable="True" TabIndex="0"/>
+            <Button x:Name="btnAdd" Content="Generieren" HorizontalAlignment="Left" Margin="508,455,0,0" VerticalAlignment="Top" Width="123" Click="btnAdd_Click" TabIndex="2"/>
+            <Label x:Name="lblTitle" Content="Rechnung generieren" HorizontalAlignment="Left" Margin="160,14,0,0" VerticalAlignment="Top" FontSize="30" FontWeight="Bold"/>
+            <Label x:Name="lblNotes" Content="Anmerkungen" HorizontalAlignment="Left" Margin="49,255,0,0" VerticalAlignment="Top"/>
+            <RichTextBox x:Name="tbNotes" HorizontalAlignment="Left" Height="243" Margin="160,258,0,0" VerticalAlignment="Top" Width="230" TabIndex="1" >
+                <FlowDocument>
+                    <Paragraph>
+                        <Run />
+                    </Paragraph>
+                </FlowDocument>
+            </RichTextBox>
+            <TextBox x:Name="txtSearch" HorizontalAlignment="Left" Height="22" Margin="508,68,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Text="Suchen" GotFocus="TextBox_Focus" TabIndex="3"/>
+            <DataGrid x:Name="dgTreatments" HorizontalAlignment="Left" Height="114" Margin="160,132,0,0" VerticalAlignment="Top" Width="436" AutoGenerateColumns="False" ItemsSource="{Binding Source=MyList}" IsReadOnly="True" KeyboardNavigation.TabNavigation="None">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Behandlung" Binding="{Binding Title}" Width="218"/>
+                    <DataGridTextColumn Header="Datum" Binding="{Binding TreatmentDate, StringFormat={}\{0:dd/MM/yyyy\}}"  Width="218"/>
+                </DataGrid.Columns>
+                <DataGrid.Resources>
+                    <Style TargetType="DataGridRow">
+                        <EventSetter Event="MouseDoubleClick" Handler="Row_DoubleClick"/>
+                    </Style>
+                </DataGrid.Resources>
+            </DataGrid>
+        </Grid>
+    </Grid>
+</UserControl>
